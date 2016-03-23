@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kaitlyn Sisk</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel='stylesheet' href='static/style.css'>
+</head>
+<body>
+	<header>
+		<h1 class='text-center'>K a i t l y n&nbsp;&nbsp;S i s k</h1>
+		<nav class='navbar navbar-default navbar-toggler nav_bar'>
+			<div>
+				<ul class = 'nav navbar-nav navlinks'>
+					<li class='active'><a href = "about">About</a></li>
+					<li><a href = "cooking">Cooking</a></li>
+					<li><a href = "running">Running</a></li>
+					<li><a href = "travel">Travel</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	{% block body_content %}
+	I should never see this content.  It should be replaced.
+	{% endblock %}
+	<footer>
+		<p>Copyright &copy; Kaitlyn Sisk from the University of Michigan <a href="http://www.si.umich.edu">School of Information</a></p>
+	</footer>
+</body>
+</html>
